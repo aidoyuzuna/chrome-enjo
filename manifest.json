@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "炎上チェック",
+  "version": "1.0",
+  "description": "選択したテキストを使って炎上チェックを行う拡張機能",
+  "permissions": ["contextMenus", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
